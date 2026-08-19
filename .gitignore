@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# Local database / runtime files
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+*.log
+
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary exports
+exports_output/
+*.tmp
+~$*
