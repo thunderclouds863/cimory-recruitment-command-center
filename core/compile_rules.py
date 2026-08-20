@@ -36,7 +36,7 @@ DIRECTORATES = [
     "Procurement CMD & Corporate",
     "Procurement MP & JESS",
     "Sales General Trade CMD",
-    "Sales General Trade JES",
+    "Sales General Trade JESS",
     "Sales General Trade MP",
     "Sales International Market",
     "Sales Miss Cimory",
