@@ -6,6 +6,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
 import streamlit.components.v1 as components
+from typing import Optional
 
 NAVY = "#0B3142"
 CARD = "#123F52"
@@ -41,7 +42,7 @@ def _download_df_csv(df: pd.DataFrame, key: str, label: str = "Download CSV"):
     st.download_button(label, data=csv, file_name=f"{key}.csv", mime="text/csv", key=f"dl_{key}")
 
 
-def show_chart(fig, key: str, copyable=False, data: pd.DataFrame | None = None):
+def show_chart(fig, key: str, copyable: bool = False, data: Optional[pd.DataFrame] = None):
     """Render a plotly figure and provide export buttons.
     If copyable is True we'll attempt to produce a PNG via Kaleido; on failure we show a helpful message.
     If `data` is provided, we render a CSV download button as fallback/export.
