@@ -1,0 +1,17 @@
+/* Recruitment Command Center - visual theme */
+.dashboard-shell { color: #f5f8fa; }
+.dashboard-title { font-size: 31px; font-weight: 800; letter-spacing: -.7px; margin: 0; }
+.dashboard-subtitle { color: #9fb7c1; font-size: 13px; margin-top: 2px; }
+.section-label { margin: 18px 0 8px; font-size: 12px; font-weight: 800; letter-spacing: 1.2px; color: #9fc3cf; }
+.kpi { background: linear-gradient(145deg,#164b61,#123c4d); border: 1px solid rgba(255,255,255,.08); border-radius: 13px; padding: 14px 15px; min-height: 86px; box-shadow: 0 8px 22px rgba(0,0,0,.14); }
+.kpi .label { color:#9fb7c1; font-size:10px; text-transform:uppercase; letter-spacing:.8px; font-weight:700; }
+.kpi .value { color:#f7fbfc; font-size:25px; line-height:1.05; font-weight:850; margin-top:7px; }
+.kpi .hint { color:#7f9eaa; font-size:10px; margin-top:4px; }
+.signal { background:#123c4d; border-radius:12px; border:1px solid rgba(255,255,255,.07); padding:11px 14px; min-height:70px; }
+.signal .number { font-size:21px; font-weight:800; }
+.signal .text { color:#a7bdc6; font-size:10px; margin-top:2px; }
+.card-title { color:#f5f8fa; font-size:13px; font-weight:750; margin:0 0 3px; }
+.card-subtitle { color:#829fa9; font-size:10px; margin-bottom:3px; }
+.insight { background:#123c4d; border-left:3px solid #36c4b0; border-radius:9px; padding:10px 12px; margin-bottom:7px; }
+.insight b { color:#fff; }
+.insight span { color:#a6bbc4; font-size:11px; }
